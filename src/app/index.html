@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="global.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Messages</h1>
+      <img src="../data/msg.svg" alt="message symbol">
+    </header>
+    <div class="message-list" id="messages-root">
+    </div>
+    <div class="send-message-panel">
+      <input class="message-input" style="flex: 1;" type="search" id="account-input" placeholder="enter username..." oninput="updateDisplay()">
+      <input class="message-input" style="flex: 3;"type="search" id="message-input" placeholder="enter message...">
+      <button class="send-button" onclick="sendMessage()">SEND</button>
+    </div>
+  </main>
+  <script src="scripts/messages.js"></script>
+</body>
+</html>

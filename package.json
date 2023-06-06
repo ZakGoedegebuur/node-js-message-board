@@ -1,0 +1,9 @@
+{
+  "main": "src/server/server.js",
+  "dependencies": {
+    "ws": "^8.13.0"
+  },
+  "scripts": {
+    "init": "node init.js"
+  }
+}
